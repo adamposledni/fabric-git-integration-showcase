@@ -1,0 +1,81 @@
+{
+  "config": "{\"version\":\"5.51\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU02\",\"version\":\"5.51\",\"type\":2}},\"activeSectionIndex\":0,\"bookmarks\":[{\"displayName\":\"Bookmark 1\",\"name\":\"Bookmark93032d4430623f35394b\",\"explorationState\":{\"version\":\"1.3\",\"activeSection\":\"ReportSection\",\"sections\":{\"ReportSection\":{\"visualContainers\":{\"d4934131e1664aea49ef\":{\"filters\":{\"byExpr\":[{\"type\":\"Categorical\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Approval requests\"}},\"Property\":\"Approver.email\"}},\"howCreated\":0},{\"type\":\"Advanced\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Approval requests\"}},\"Property\":\"ID\"}},\"howCreated\":0},{\"type\":\"Categorical\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Approval requests\"}},\"Property\":\"Request type\"}},\"howCreated\":0},{\"type\":\"Categorical\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Approval requests\"}},\"Property\":\"Request date\"}},\"howCreated\":0},{\"type\":\"Categorical\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Approval requests\"}},\"Property\":\"Status\"}},\"howCreated\":0},{\"type\":\"Categorical\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Approval requests\"}},\"Property\":\"Description\"}},\"howCreated\":0}]},\"singleVisual\":{\"visualType\":\"tableEx\",\"objects\":{}}},\"9f34c7d98a00b40c8d8a\":{\"filters\":{\"byExpr\":[{\"type\":\"Categorical\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Approval requests\"}},\"Property\":\"Request type\"}},\"howCreated\":0}]},\"singleVisual\":{\"visualType\":\"slicer\",\"objects\":{\"merge\":{\"general\":[{\"properties\":{\"filter\":{\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"Approval requests\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Request type\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'Equipment purchase'\"}}]]}}}]}}}}],\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Basic'\"}}}}}]}},\"activeProjections\":{\"Values\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Approval requests\"}},\"Property\":\"Request type\"}}]}}}}}},\"objects\":{}},\"options\":{\"targetVisualNames\":[\"9f34c7d98a00b40c8d8a\"],\"suppressDisplay\":true}},{\"displayName\":\"Bookmark 2\",\"name\":\"Bookmark829afa9d908c38d19992\",\"explorationState\":{\"version\":\"1.3\",\"activeSection\":\"ReportSection\",\"sections\":{\"ReportSection\":{\"visualContainers\":{\"d4934131e1664aea49ef\":{\"filters\":{\"byExpr\":[{\"type\":\"Categorical\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Approval requests\"}},\"Property\":\"Approver.email\"}},\"howCreated\":0},{\"type\":\"Advanced\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Approval requests\"}},\"Property\":\"ID\"}},\"howCreated\":0},{\"type\":\"Categorical\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Approval requests\"}},\"Property\":\"Request type\"}},\"howCreated\":0},{\"type\":\"Categorical\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Approval requests\"}},\"Property\":\"Request date\"}},\"howCreated\":0},{\"type\":\"Categorical\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Approval requests\"}},\"Property\":\"Status\"}},\"howCreated\":0},{\"type\":\"Categorical\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Approval requests\"}},\"Property\":\"Description\"}},\"howCreated\":0}]},\"singleVisual\":{\"visualType\":\"tableEx\",\"objects\":{}}},\"9f34c7d98a00b40c8d8a\":{\"filters\":{\"byExpr\":[{\"type\":\"Categorical\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Approval requests\"}},\"Property\":\"Request type\"}},\"howCreated\":0}]},\"singleVisual\":{\"visualType\":\"slicer\",\"objects\":{\"merge\":{\"general\":[{\"properties\":{\"filter\":{\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"Approval requests\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Request type\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'Timesheet'\"}}]]}}}]}}}}],\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Basic'\"}}}}}]}},\"activeProjections\":{\"Values\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Approval requests\"}},\"Property\":\"Request type\"}}]}}}}}},\"objects\":{}},\"options\":{\"targetVisualNames\":[\"9f34c7d98a00b40c8d8a\"],\"suppressDisplay\":true}},{\"displayName\":\"Bookmark 3\",\"name\":\"Bookmarkcc0c6e7e2ba33236a740\",\"explorationState\":{\"version\":\"1.3\",\"activeSection\":\"ReportSection\",\"sections\":{\"ReportSection\":{\"visualContainers\":{\"d4934131e1664aea49ef\":{\"filters\":{\"byExpr\":[{\"type\":\"Categorical\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Approval requests\"}},\"Property\":\"Approver.email\"}},\"howCreated\":0},{\"type\":\"Advanced\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Approval requests\"}},\"Property\":\"ID\"}},\"howCreated\":0},{\"type\":\"Categorical\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Approval requests\"}},\"Property\":\"Request type\"}},\"howCreated\":0},{\"type\":\"Categorical\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Approval requests\"}},\"Property\":\"Request date\"}},\"howCreated\":0},{\"type\":\"Categorical\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Approval requests\"}},\"Property\":\"Status\"}},\"howCreated\":0},{\"type\":\"Categorical\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Approval requests\"}},\"Property\":\"Description\"}},\"howCreated\":0}]},\"singleVisual\":{\"visualType\":\"tableEx\",\"objects\":{}}},\"9f34c7d98a00b40c8d8a\":{\"filters\":{\"byExpr\":[{\"type\":\"Categorical\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Approval requests\"}},\"Property\":\"Request type\"}},\"howCreated\":0}]},\"singleVisual\":{\"visualType\":\"slicer\",\"objects\":{\"merge\":{\"general\":[{\"properties\":{\"filter\":{\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"Approval requests\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Request type\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'Vacation'\"}}]]}}}]}}}}],\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Basic'\"}}}}}]}},\"activeProjections\":{\"Values\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Approval requests\"}},\"Property\":\"Request type\"}}]}}}}}},\"objects\":{}},\"options\":{\"targetVisualNames\":[\"9f34c7d98a00b40c8d8a\"],\"suppressDisplay\":true}}],\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY24SU02",
+            "path": "BaseThemes/CY24SU02.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{}",
+      "displayName": "Page 1",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "ReportSection",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"9f34c7d98a00b40c8d8a\",\"layouts\":[{\"id\":0,\"position\":{\"x\":174.54545454545456,\"y\":58.18181818181819,\"z\":1000,\"width\":274.066985645933,\"height\":111.77033492822967,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Approval requests.Request type\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"Approval requests\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Request type\"},\"Name\":\"Approval requests.Request type\",\"NativeReferenceName\":\"Request type\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Basic'\"}}}}}],\"general\":[{\"properties\":{\"filter\":{\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"Approval requests\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Request type\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'Vacation'\"}}]]}}}]}}}}]}}}",
+          "filters": "[]",
+          "height": 111.77,
+          "width": 274.07,
+          "x": 174.55,
+          "y": 58.18,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"d4934131e1664aea49ef\",\"layouts\":[{\"id\":0,\"position\":{\"x\":197.51196172248805,\"y\":217.41626794258374,\"z\":0,\"width\":793.11004784689,\"height\":142.39234449760767,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Approval requests.Approver.email\"},{\"queryRef\":\"CountNonNull(Approval requests.ID)\"},{\"queryRef\":\"Approval requests.Request type\"},{\"queryRef\":\"Approval requests.Request date\"},{\"queryRef\":\"Approval requests.Status\"},{\"queryRef\":\"Approval requests.Description\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"Approval requests\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Approver.email\"},\"Name\":\"Approval requests.Approver.email\",\"NativeReferenceName\":\"Approver.email\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"ID\"},\"Name\":\"CountNonNull(Approval requests.ID)\",\"NativeReferenceName\":\"ID\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Request type\"},\"Name\":\"Approval requests.Request type\",\"NativeReferenceName\":\"Request type\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Request date\"},\"Name\":\"Approval requests.Request date\",\"NativeReferenceName\":\"Request date\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Status\"},\"Name\":\"Approval requests.Status\",\"NativeReferenceName\":\"Status\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Description\"},\"Name\":\"Approval requests.Description\",\"NativeReferenceName\":\"Description\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 142.39,
+          "width": 793.11,
+          "x": 197.51,
+          "y": 217.42,
+          "z": 0.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{}",
+      "displayName": "Page 2",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "ReportSection2c08ec85e274aed40dda",
+      "ordinal": 1,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"b8cb68b0b4ca533077b1\",\"layouts\":[{\"id\":0,\"position\":{\"x\":85.74162679425838,\"y\":318.4688995215311,\"z\":1000,\"width\":554.2583732057417,\"height\":225.07177033492823,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"pieChart\",\"projections\":{\"Y\":[{\"queryRef\":\"CountNonNull(Approval requests.ID)\"}],\"Category\":[{\"queryRef\":\"Approval requests.Request type\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"Approval requests\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"ID\"}},\"Function\":5},\"Name\":\"CountNonNull(Approval requests.ID)\",\"NativeReferenceName\":\"Count of ID\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Request type\"},\"Name\":\"Approval requests.Request type\",\"NativeReferenceName\":\"Request type\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"ID\"}},\"Function\":5}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 225.07,
+          "width": 554.26,
+          "x": 85.74,
+          "y": 318.47,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"bc40feca65cb98d8c360\",\"layouts\":[{\"id\":0,\"position\":{\"x\":85.74162679425838,\"y\":67.36842105263159,\"z\":0,\"width\":793.11004784689,\"height\":223.54066985645935,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Approval requests.Approver.email\"},{\"queryRef\":\"CountNonNull(Approval requests.ID)\"},{\"queryRef\":\"Approval requests.Request type\"},{\"queryRef\":\"Approval requests.Request date\"},{\"queryRef\":\"Approval requests.Status\"},{\"queryRef\":\"Approval requests.Description\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"Approval requests\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Approver.email\"},\"Name\":\"Approval requests.Approver.email\",\"NativeReferenceName\":\"Approver.email\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"ID\"},\"Name\":\"CountNonNull(Approval requests.ID)\",\"NativeReferenceName\":\"ID\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Request type\"},\"Name\":\"Approval requests.Request type\",\"NativeReferenceName\":\"Request type\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Request date\"},\"Name\":\"Approval requests.Request date\",\"NativeReferenceName\":\"Request date\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Status\"},\"Name\":\"Approval requests.Status\",\"NativeReferenceName\":\"Status\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Description\"},\"Name\":\"Approval requests.Description\",\"NativeReferenceName\":\"Description\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 223.54,
+          "width": 793.11,
+          "x": 85.74,
+          "y": 67.37,
+          "z": 0.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ]
+}

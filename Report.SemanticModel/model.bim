@@ -1,0 +1,488 @@
+{
+  "compatibilityLevel": 1550,
+  "model": {
+    "annotations": [
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "0"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.126.1261.0 (24.02)"
+      },
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"Approval requests\"]"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "en-US",
+    "cultures": [
+      {
+        "name": "en-US",
+        "linguisticMetadata": {
+          "content": {
+            "DynamicImprovement": "HighConfidence",
+            "Language": "en-US",
+            "Version": "1.0.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "sourceQueryCulture": "cs-CZ",
+    "tables": [
+      {
+        "name": "Approval requests",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          },
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Request type",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "332069cd-e0d6-468f-af57-1e1d32d9fcbe",
+            "sourceColumn": "Request type",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Status",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "56ccb6a7-769b-4eaa-b4ea-f15375f2ae58",
+            "sourceColumn": "Status",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ID",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "890883f0-c2f7-4d55-9bad-6982b3beb0be",
+            "sourceColumn": "ID",
+            "summarizeBy": "count"
+          },
+          {
+            "name": "Description",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "c30ef3be-1d5c-4be0-8b22-2261a264c148",
+            "sourceColumn": "Description",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Modified by",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "d362b33a-f1c6-439a-8e61-434c726183c5",
+            "sourceColumn": "Modified by",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Modified",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "lineageTag": "5126754f-4f7b-401d-80a7-cafb95f84820",
+            "sourceColumn": "Modified",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Created",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "lineageTag": "57dc6282-a899-45c8-9c62-0b995197acb4",
+            "sourceColumn": "Created",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Created By",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "b95f3a4f-069c-4b37-aaad-0f1acd9f908c",
+            "sourceColumn": "Created By",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Completed",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "00a084d7-7376-4ebd-951d-8e97856aa02d",
+            "sourceColumn": "Completed",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Request date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "lineageTag": "8850ebac-cfb0-4c2f-89c6-f49a04216895",
+            "sourceColumn": "Request date",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Link",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "66ca734d-3f3b-4de0-a81d-cb0a472fe06b",
+            "sourceColumn": "Link",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Test -2",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "fc95f6ed-ca8b-4a43-9a13-8d82dbf3d4e7",
+            "sourceColumn": "Test -2",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Title",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "509563f2-81d1-42b7-af74-4617c4738fd7",
+            "sourceColumn": "Title",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Color Tag",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "b6dd7716-2f0c-4cd4-8e23-707001dc829c",
+            "sourceColumn": "Color Tag",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Compliance Asset Id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "b7bea011-317d-4cdf-981d-b70a346eaf45",
+            "sourceColumn": "Compliance Asset Id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Content Type",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "c683c618-7cdc-4940-bed8-7f4f77765fc6",
+            "sourceColumn": "Content Type",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Version",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "a8027772-e115-4009-9a1a-53ceb81d5b52",
+            "sourceColumn": "Version",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Attachments",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "e4d5b18e-51fa-4da4-9eaf-ab45ad8619f8",
+            "sourceColumn": "Attachments",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Edit",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "8b25b6bd-a29c-49db-8cb4-315251326004",
+            "sourceColumn": "Edit",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Type",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "9aef24b3-a096-456a-b421-006ce78f511d",
+            "sourceColumn": "Type",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Item Child Count",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "9e4f9323-e1da-465e-a299-63f28d586a8b",
+            "sourceColumn": "Item Child Count",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Folder Child Count",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "1604d37e-3b0c-4698-bd1f-4a17134d8a30",
+            "sourceColumn": "Folder Child Count",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Label setting",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "9eb2d85e-6109-432e-9008-dac8fe592773",
+            "sourceColumn": "Label setting",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Retention label",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "9c1c2777-1521-4aba-aaa5-2b4a42fe54e5",
+            "sourceColumn": "Retention label",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Retention label Applied",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "7f6c73f6-9606-453e-894c-700738faaba4",
+            "sourceColumn": "Retention label Applied",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Label applied by",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "8e5e4d0e-ec55-4c6f-b6f2-5b87ed60ebf4",
+            "sourceColumn": "Label applied by",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Item is a Record",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "38774a0a-ff2d-454d-aaf9-46bdc591d3bf",
+            "sourceColumn": "Item is a Record",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "App Created By",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "b5401108-6b18-4b7f-a4db-05c52b885f42",
+            "sourceColumn": "App Created By",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "App Modified By",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "4370c199-fa17-470d-976a-1db058a67972",
+            "sourceColumn": "App Modified By",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Requester.email",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "d47a91ab-b92d-4624-a9ce-e4bec8e751fe",
+            "sourceColumn": "Requester.email",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Approver.email",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "b15ab3d8-d2ba-44ba-b93a-5a06c95d0ad9",
+            "sourceColumn": "Approver.email",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "83e2d143-bf96-4ba4-866d-8c73bb8bb7d6",
+        "partitions": [
+          {
+            "name": "Approval requests",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = SharePoint.Tables(\"https://k7pk.sharepoint.com/sites/PowerPlatformacademy\", [Implementation=\"2.0\", ViewMode=\"All\"]),",
+                "    #\"89987dde-af11-4e89-b58e-27b2d144d4ce\" = Source{[Id=\"89987dde-af11-4e89-b58e-27b2d144d4ce\"]}[Items],",
+                "    #\"Expanded Requester\" = Table.ExpandListColumn(#\"89987dde-af11-4e89-b58e-27b2d144d4ce\", \"Requester\"),",
+                "    #\"Expanded Requester1\" = Table.ExpandRecordColumn(#\"Expanded Requester\", \"Requester\", {\"email\"}, {\"Requester.email\"}),",
+                "    #\"Expanded Approver\" = Table.ExpandListColumn(#\"Expanded Requester1\", \"Approver\"),",
+                "    #\"Expanded Approver1\" = Table.ExpandRecordColumn(#\"Expanded Approver\", \"Approver\", {\"email\"}, {\"Approver.email\"})",
+                "in",
+                "    #\"Expanded Approver1\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
